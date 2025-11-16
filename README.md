@@ -15,7 +15,7 @@ NTHP Protocol is a decentralized governance and utility protocol based on the NT
 - **Decimals**: 18
 
 ## Token Logo:
-![Logo](https://github.com/gm891273/nthp-protocol-mainnet/raw/main/assets/logo.png)
+![Logo](https://github.com/gm891273/nthp-protocol-mainnet/raw/main/clearing.png)
 
 ## How to Participate:
 1. Stake your NTHP to earn rewards.
