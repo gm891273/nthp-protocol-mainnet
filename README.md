@@ -183,3 +183,32 @@ Each entry should contain:
 This registry can be kept as a markdown or JSON file in the repository
 (e.g. `governance/proposals-mainnet.md`), and updated as new proposals
 are executed on mainnet.
+
+
+## Contracts (Sei EVM Mainnet)
+
+The following contracts are deployed on the Sei EVM mainnet:
+
+- **NTHP Token (ERC20Votes)**  
+  Main governance token of the protocol.  
+  - Contract: `0x1430eB4D5865eC9a8b1D6f58BF7657d78CeCf458`
+
+- **StakingVault**  
+  Staking vault for NTHP, used to distribute rewards to long-term holders.  
+  - Contract: `0xA265AcDE0631Cb5EC017d540477e6863D9C9Eb40`
+
+- **VestingVault**  
+  Linear vesting vault for long-term allocations.  
+  - Contract: `0x8c2dD943047Dba99D52de3aFF7D566D028aEaA52`
+
+- **TimelockController**  
+  Owns all core contracts and enforces a minimum delay on privileged actions.  
+  - Contract: `0x380fBfF5e2bf53cf2F747463e3081222B1958E88B`
+
+- **NTHPGovernor**  
+  On-chain governance contract controlling the Timelock.  
+  - Contract: `0x3457444B3729cF7389AE297Cb242a6F247D5bDe8`
+
+Additional modules (e.g. ParamStore, TreasuryExecutor, KeeperRouter, LightMixer)
+are also deployed and owned by the Timelock; they can be added here as the
+deployment documentation is finalized.
